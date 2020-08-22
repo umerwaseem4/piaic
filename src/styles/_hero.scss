@@ -1,0 +1,35 @@
+.herocontainer {
+  background-color: rgba(231, 227, 227, 0.933);
+  height: 550px;
+  .hero {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    .main__text {
+      margin-left: 80px;
+      margin-top: 8rem;
+    }
+    .main__heading {
+      font-size: 60px;
+    }
+    .hero__image {
+      margin-left: 40px !important;
+    }
+    .sub__heading {
+      font-size: 30px;
+    }
+    .main__para {
+      font-size: 14px;
+      color: #999;
+    }
+    .hero__cta {
+      font-size: 18px;
+      padding: 10px 25px;
+      background-color: #20c997;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 600;
+      border-radius: 10px;
+    }
+  }
+}
