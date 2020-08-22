@@ -12,13 +12,18 @@ function App() {
       y: -150,
       ease: Back.easeOut,
     });
+    tl.from(".herocontainer", 2.1, {
+      opacity: 0,
+      y: -250,
+      ease: Back.easeOut,
+    });
 
     tl.from(".hero__image", 2.1, {
       opacity: 0,
-
       x: -250,
       ease: Back.easeOut,
     });
+
     tl.from(".main__heading", 0.5, {
       opacity: 0,
       y: 70,
